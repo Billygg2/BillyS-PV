@@ -24,7 +24,7 @@ let userList: userData[] = [];
 
 userList.push(
     {
-    nombre: "Billy", 
+    nombre: "Billy",
     edad: 19,
     email: "billy@gmail.com",
     telefono: "099990"
@@ -33,11 +33,11 @@ userList.push(
 
 userList.push(
     {
-    nombre: "Diego", 
+    nombre: "Diego",
     edad: 29,
     email: "diego@gmail.com",
     telefono: "099990"
     }
 );
 
-console.log(userList);
+console.log(userList[1]);
