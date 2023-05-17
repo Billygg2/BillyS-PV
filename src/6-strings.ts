@@ -40,7 +40,7 @@ console.log(concatenado);
     productTitle = 'My amazing product changed';
     console.log('productTitle', productTitle);
 
-    const productDescription = "I'm bla bla bla bl s asasasa"
+    const productDescription = "Producto descriptivo"
     console.log('productDescription', productDescription);
 })
 

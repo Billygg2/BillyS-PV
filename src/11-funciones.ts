@@ -64,3 +64,48 @@ const producto2 = crearProducto1(
 
   console.log(producto2);
   console.log(producto2.createAt);
+
+  // Retorno en las funciones 
+
+  // Funciones tipo VOID
+
+function imprimirNombre(
+   yourName : string
+): void {
+  console.log(`Bienvenido ${yourName} a TS`);
+}
+imprimirNombre("Billy");
+
+// funciones con retorno
+
+let resultado = 0
+
+function operacion1(
+  a : number,
+  b : number):number {
+    return a + b;
+  }
+
+  let ejemploFuncion = console.log(operacion1(45, 50));
+
+  // funciones con varios retornos
+
+  function clasificador(
+    a: number,
+    b: number,
+    c: number,): number|string{
+      if (a>b && a>c){
+        return a;
+      }
+      if (b>a && b>c){
+        return b;
+      }
+      if (c>a && c>b){
+        return b;
+      } else{
+        return `Los numeros son iguales`;
+      }
+    }
+
+    let clasificador1 = console.log(clasificador(6, 6, 6));
+  
